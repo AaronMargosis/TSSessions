@@ -17,4 +17,4 @@ Usage:
 -o outfile : output to a named UTF-8 file. If -o not used, outputs to stdout.
 ```
 
-Sample outputs here: TODO insert link
+Sample outputs [here](https://github.com/AaronMargosis/TSSessions/tree/master/Sample%20outputs).
