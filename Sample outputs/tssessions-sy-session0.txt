@@ -1,0 +1,151 @@
+This process/thread running in:
+
+    TS Session:  0
+
+    WinSta:      Service-0x0-3e7$
+    User:        (no user)
+    Flags:       0x00000000
+
+    Desktop:     Default
+    User:        (no user)
+    Flags:       0x00000000
+    Heap size:   768 KB
+
+    Running as:  S-1-5-18 - NT AUTHORITY\SYSTEM
+
+Current user input Desktop: Incorrect function. Error # 1 (0x00000001)
+
+Console Session = 4
+
+Are child sessions enabled? No
+
+Terminal sessions: 5
+
+    Session ID           : 0
+    Session Name         : Services
+    State                : Disconnected
+    SessionFlags         : WTS_SESSIONSTATE_UNKNOWN
+    DomainName           : 
+    UserName             : 
+    LogonTime            : 
+    ConnectTime          : 
+    DisconnectTime       : 
+    LastInputTime        : 
+    CurrentTime          : 2024-09-18 03:45:42.192
+    No Token
+
+    Session ID           : 1
+    Session Name         : 
+    State                : Disconnected
+    SessionFlags         : WTS_SESSIONSTATE_LOCK
+    DomainName           : DESKTOP-UTG6ND7
+    UserName             : Toby
+    LogonTime            : 2024-09-18 03:28:14.422
+    ConnectTime          : 2024-09-18 03:26:54.467
+    DisconnectTime       : 2024-09-18 03:30:22.872
+    LastInputTime        : 2024-09-18 03:30:22.872
+    CurrentTime          : 2024-09-18 03:45:42.192
+    * User token:
+    Token user SID       : S-1-5-21-3520235625-995461104-4200055797-1002
+    Token logon session  : 00000000:0011b19c
+    Token integrity level: Medium
+
+    Session ID           : 2
+    Session Name         : 31C5CE94259D4006A9E4#0
+    State                : Active
+    SessionFlags         : WTS_SESSIONSTATE_UNLOCK
+    DomainName           : DESKTOP-UTG6ND7
+    UserName             : Admin
+    LogonTime            : 2024-09-18 03:27:14.832
+    ConnectTime          : 2024-09-18 03:30:23.248
+    DisconnectTime       : 2024-09-18 03:30:23.107
+    LastInputTime        : 2024-09-18 03:45:42.160
+    CurrentTime          : 2024-09-18 03:45:42.192
+    * User token:
+    Token user SID       : S-1-5-21-3520235625-995461104-4200055797-1001
+    Token logon session  : 00000000:000705c8
+    Token integrity level: Medium
+    * Linked token:
+    Token user SID       : S-1-5-21-3520235625-995461104-4200055797-1001
+    Token logon session  : 00000000:000705a0
+    Token integrity level: High
+
+    Session ID           : 4
+    Session Name         : Console
+    State                : Connected
+    SessionFlags         : WTS_SESSIONSTATE_LOCK
+    DomainName           : 
+    UserName             : 
+    LogonTime            : 
+    ConnectTime          : 2024-09-18 03:30:22.950
+    DisconnectTime       : 
+    LastInputTime        : 
+    CurrentTime          : 2024-09-18 03:45:42.192
+    No Token
+
+    Session ID           : 65536
+    Session Name         : 31C5CE94259D4006A9E4
+    State                : Listen
+    SessionFlags         : WTS_SESSIONSTATE_LOCK
+    DomainName           : 
+    UserName             : 
+    LogonTime            : 
+    ConnectTime          : 
+    DisconnectTime       : 
+    LastInputTime        : 
+    CurrentTime          : 
+    No Token
+
+Window stations in the current session: 5
+
+    WS name    : WinSta0
+      Flags    : 0x00000001 WSF_VISIBLE
+      User     : (no user)
+      Desktops in WS WinSta0: 3
+
+        Name : Default
+          Flags    : 0x00000000
+          User     : (no user)
+          Heap size: 20480 KB
+          UserInput: No
+
+        Name : Disconnect
+          Flags    : 0x00000000
+          User     : (no user)
+          Heap size: 96 KB
+          UserInput: No
+
+        Name : Winlogon
+          Flags    : 0x00000000
+          User     : (no user)
+          Heap size: 192 KB
+          UserInput: Yes
+
+
+    WS name    : Service-0x0-3e7$
+      Flags    : 0x00000000
+      User     : (no user)
+      Unable to enumerate desktops: Access is denied. Error # 5 (0x00000005)
+
+    WS name    : Service-0x0-3e4$
+      Flags    : Access is denied. Error # 5 (0x00000005)
+      User     : Access is denied. Error # 5 (0x00000005)
+      Unable to enumerate desktops: Access is denied. Error # 5 (0x00000005)
+
+    WS name    : Service-0x0-3e5$
+      Flags    : Access is denied. Error # 5 (0x00000005)
+      User     : Access is denied. Error # 5 (0x00000005)
+      Unable to enumerate desktops: Access is denied. Error # 5 (0x00000005)
+
+    WS name    : msswindowstation
+      Flags    : 0x00000000
+      User     : (no user)
+      Desktops in WS msswindowstation: 1
+
+        Name : mssrestricteddesk
+          Flags    : 0x00000000
+          User     : (no user)
+          Heap size: 768 KB
+          UserInput: No
+
+

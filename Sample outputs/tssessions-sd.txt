@@ -1,0 +1,881 @@
+This process/thread running in:
+
+    TS Session:  2
+
+    WinSta:      WinSta0
+    User:        NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+    Flags:       0x00000001 WSF_VISIBLE
+
+    Desktop:     Default
+    User:        NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+    Flags:       0x00000000
+    Heap size:   20480 KB
+
+    Running as:  S-1-5-18 - NT AUTHORITY\SYSTEM
+
+Current user input Desktop: Default
+
+Console Session = 4
+
+Are child sessions enabled? No
+
+Terminal sessions: 5
+
+    Session ID           : 0
+    Session Name         : Services
+    State                : Disconnected
+    SessionFlags         : WTS_SESSIONSTATE_UNKNOWN
+    DomainName           : 
+    UserName             : 
+    LogonTime            : 
+    ConnectTime          : 
+    DisconnectTime       : 
+    LastInputTime        : 
+    CurrentTime          : 2024-09-18 03:44:54.093
+    No Token
+
+    Session ID           : 1
+    Session Name         : 
+    State                : Disconnected
+    SessionFlags         : WTS_SESSIONSTATE_LOCK
+    DomainName           : DESKTOP-UTG6ND7
+    UserName             : Toby
+    LogonTime            : 2024-09-18 03:28:14.422
+    ConnectTime          : 2024-09-18 03:26:54.467
+    DisconnectTime       : 2024-09-18 03:30:22.872
+    LastInputTime        : 2024-09-18 03:30:22.872
+    CurrentTime          : 2024-09-18 03:44:54.093
+    * User token:
+    Token user SID       : S-1-5-21-3520235625-995461104-4200055797-1002
+    Token logon session  : 00000000:0011b19c
+    Token integrity level: Medium
+
+    Session ID           : 2
+    Session Name         : 31C5CE94259D4006A9E4#0
+    State                : Active
+    SessionFlags         : WTS_SESSIONSTATE_UNLOCK
+    DomainName           : DESKTOP-UTG6ND7
+    UserName             : Admin
+    LogonTime            : 2024-09-18 03:27:14.832
+    ConnectTime          : 2024-09-18 03:30:23.248
+    DisconnectTime       : 2024-09-18 03:30:23.107
+    LastInputTime        : 2024-09-18 03:44:54.061
+    CurrentTime          : 2024-09-18 03:44:54.093
+    * User token:
+    Token user SID       : S-1-5-21-3520235625-995461104-4200055797-1001
+    Token logon session  : 00000000:000705c8
+    Token integrity level: Medium
+    * Linked token:
+    Token user SID       : S-1-5-21-3520235625-995461104-4200055797-1001
+    Token logon session  : 00000000:000705a0
+    Token integrity level: High
+
+    Session ID           : 4
+    Session Name         : Console
+    State                : Connected
+    SessionFlags         : WTS_SESSIONSTATE_LOCK
+    DomainName           : 
+    UserName             : 
+    LogonTime            : 
+    ConnectTime          : 2024-09-18 03:30:22.950
+    DisconnectTime       : 
+    LastInputTime        : 
+    CurrentTime          : 2024-09-18 03:44:54.093
+    No Token
+
+    Session ID           : 65536
+    Session Name         : 31C5CE94259D4006A9E4
+    State                : Listen
+    SessionFlags         : WTS_SESSIONSTATE_LOCK
+    DomainName           : 
+    UserName             : 
+    LogonTime            : 
+    ConnectTime          : 
+    DisconnectTime       : 
+    LastInputTime        : 
+    CurrentTime          : 
+    No Token
+
+Window stations in the current session: 2
+
+    WS name    : WinSta0
+      Flags    : 0x00000001 WSF_VISIBLE
+      User     : NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+      Security descriptor:
+        Control:  0x8014  (SE_DACL_PRESENT SE_SACL_PRESENT SE_SELF_RELATIVE )
+        Owner:    BUILTIN\Administrators (S-1-5-32-544)
+        Group:    NT AUTHORITY\SYSTEM (S-1-5-18)
+        ACEs in DACL:  15
+        ACE 0.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   DESKTOP-UTG6ND7\Admin (S-1-5-21-3520235625-995461104-4200055797-1001)
+            Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+            Perms: [00000024] 
+                   WINSTA_ACCESSCLIPBOARD
+                   WINSTA_ACCESSGLOBALATOMS
+        ACE 1.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+            Flags: [0000000b] CONTAINER_INHERIT_ACE INHERIT_ONLY_ACE OBJECT_INHERIT_ACE 
+            Perms: [f0000000] 
+                   GENERIC_READ
+                   GENERIC_WRITE
+                   GENERIC_EXECUTE
+                   GENERIC_ALL
+        ACE 2.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+            Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+            Perms: [000f037f] 
+                   WINSTA_ENUMDESKTOPS
+                   WINSTA_READATTRIBUTES
+                   WINSTA_ACCESSCLIPBOARD
+                   WINSTA_CREATEDESKTOP
+                   WINSTA_WRITEATTRIBUTES
+                   WINSTA_ACCESSGLOBALATOMS
+                   WINSTA_EXITWINDOWS
+                   WINSTA_ENUMERATE
+                   WINSTA_READSCREEN
+                   DELETE
+                   READ_CONTROL
+                   WRITE_DAC
+                   WRITE_OWNER
+        ACE 3.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   Font Driver Host\UMFD-2 (S-1-5-96-0-2)
+            Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+            Perms: [00020363] 
+                   WINSTA_ENUMDESKTOPS
+                   WINSTA_READATTRIBUTES
+                   WINSTA_ACCESSGLOBALATOMS
+                   WINSTA_EXITWINDOWS
+                   WINSTA_ENUMERATE
+                   WINSTA_READSCREEN
+                   READ_CONTROL
+        ACE 4.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   Window Manager\DWM-2 (S-1-5-90-0-2)
+            Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+            Perms: [000f037f] 
+                   WINSTA_ENUMDESKTOPS
+                   WINSTA_READATTRIBUTES
+                   WINSTA_ACCESSCLIPBOARD
+                   WINSTA_CREATEDESKTOP
+                   WINSTA_WRITEATTRIBUTES
+                   WINSTA_ACCESSGLOBALATOMS
+                   WINSTA_EXITWINDOWS
+                   WINSTA_ENUMERATE
+                   WINSTA_READSCREEN
+                   DELETE
+                   READ_CONTROL
+                   WRITE_DAC
+                   WRITE_OWNER
+        ACE 5.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   NT AUTHORITY\RESTRICTED (S-1-5-12)
+            Flags: [0000000b] CONTAINER_INHERIT_ACE INHERIT_ONLY_ACE OBJECT_INHERIT_ACE 
+            Perms: [f0000000] 
+                   GENERIC_READ
+                   GENERIC_WRITE
+                   GENERIC_EXECUTE
+                   GENERIC_ALL
+        ACE 6.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   NT AUTHORITY\RESTRICTED (S-1-5-12)
+            Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+            Perms: [000f037f] 
+                   WINSTA_ENUMDESKTOPS
+                   WINSTA_READATTRIBUTES
+                   WINSTA_ACCESSCLIPBOARD
+                   WINSTA_CREATEDESKTOP
+                   WINSTA_WRITEATTRIBUTES
+                   WINSTA_ACCESSGLOBALATOMS
+                   WINSTA_EXITWINDOWS
+                   WINSTA_ENUMERATE
+                   WINSTA_READSCREEN
+                   DELETE
+                   READ_CONTROL
+                   WRITE_DAC
+                   WRITE_OWNER
+        ACE 7.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   BUILTIN\Administrators (S-1-5-32-544)
+            Flags: [0000000b] CONTAINER_INHERIT_ACE INHERIT_ONLY_ACE OBJECT_INHERIT_ACE 
+            Perms: [200000c7] 
+                   GENERIC_EXECUTE
+                   WINSTA_ENUMDESKTOPS
+                   WINSTA_READATTRIBUTES
+                   WINSTA_ACCESSCLIPBOARD
+                   WINSTA_EXITWINDOWS
+                   00000080
+        ACE 8.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   BUILTIN\Administrators (S-1-5-32-544)
+            Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+            Perms: [00020166] 
+                   WINSTA_READATTRIBUTES
+                   WINSTA_ACCESSCLIPBOARD
+                   WINSTA_ACCESSGLOBALATOMS
+                   WINSTA_EXITWINDOWS
+                   WINSTA_ENUMERATE
+                   READ_CONTROL
+        ACE 9.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   NT AUTHORITY\SYSTEM (S-1-5-18)
+            Flags: [0000000b] CONTAINER_INHERIT_ACE INHERIT_ONLY_ACE OBJECT_INHERIT_ACE 
+            Perms: [f0000000] 
+                   GENERIC_READ
+                   GENERIC_WRITE
+                   GENERIC_EXECUTE
+                   GENERIC_ALL
+        ACE 10.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   NT AUTHORITY\SYSTEM (S-1-5-18)
+            Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+            Perms: [000f037f] 
+                   WINSTA_ENUMDESKTOPS
+                   WINSTA_READATTRIBUTES
+                   WINSTA_ACCESSCLIPBOARD
+                   WINSTA_CREATEDESKTOP
+                   WINSTA_WRITEATTRIBUTES
+                   WINSTA_ACCESSGLOBALATOMS
+                   WINSTA_EXITWINDOWS
+                   WINSTA_ENUMERATE
+                   WINSTA_READSCREEN
+                   DELETE
+                   READ_CONTROL
+                   WRITE_DAC
+                   WRITE_OWNER
+        ACE 11.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   APPLICATION PACKAGE AUTHORITY\ALL RESTRICTED APPLICATION PACKAGES (S-1-15-2-2)
+            Flags: [0000000b] CONTAINER_INHERIT_ACE INHERIT_ONLY_ACE OBJECT_INHERIT_ACE 
+            Perms: [a0000000] 
+                   GENERIC_READ
+                   GENERIC_EXECUTE
+        ACE 12.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   APPLICATION PACKAGE AUTHORITY\ALL RESTRICTED APPLICATION PACKAGES (S-1-15-2-2)
+            Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+            Perms: [00020327] 
+                   WINSTA_ENUMDESKTOPS
+                   WINSTA_READATTRIBUTES
+                   WINSTA_ACCESSCLIPBOARD
+                   WINSTA_ACCESSGLOBALATOMS
+                   WINSTA_ENUMERATE
+                   WINSTA_READSCREEN
+                   READ_CONTROL
+        ACE 13.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES (S-1-15-2-1)
+            Flags: [0000000b] CONTAINER_INHERIT_ACE INHERIT_ONLY_ACE OBJECT_INHERIT_ACE 
+            Perms: [a0000000] 
+                   GENERIC_READ
+                   GENERIC_EXECUTE
+        ACE 14.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES (S-1-15-2-1)
+            Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+            Perms: [00020327] 
+                   WINSTA_ENUMDESKTOPS
+                   WINSTA_READATTRIBUTES
+                   WINSTA_ACCESSCLIPBOARD
+                   WINSTA_ACCESSGLOBALATOMS
+                   WINSTA_ENUMERATE
+                   WINSTA_READSCREEN
+                   READ_CONTROL
+        ACEs in SACL:  1
+        ACE 0.
+            SYSTEM_MANDATORY_LABEL_ACE_TYPE
+            SID:   Mandatory Label\Low Mandatory Level (S-1-16-4096)
+            Flags: None
+            Perms: [00000001] 
+                   WINSTA_ENUMDESKTOPS
+
+      Desktops in WS WinSta0: 3
+
+        Name : Default
+          Flags    : 0x00000000
+          User     : NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+          Heap size: 20480 KB
+          UserInput: Yes
+          Security descriptor:
+            Control:  0x8014  (SE_DACL_PRESENT SE_SACL_PRESENT SE_SELF_RELATIVE )
+            Owner:    BUILTIN\Administrators (S-1-5-32-544)
+            Group:    NT AUTHORITY\SYSTEM (S-1-5-18)
+            ACEs in DACL:  8
+            ACE 0.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+                Flags: None
+                Perms: [000f01ff] 
+                       DESKTOP_READOBJECTS
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_HOOKCONTROL
+                       DESKTOP_JOURNALRECORD
+                       DESKTOP_JOURNALPLAYBACK
+                       DESKTOP_ENUMERATE
+                       DESKTOP_WRITEOBJECTS
+                       DESKTOP_SWITCHDESKTOP
+                       DELETE
+                       READ_CONTROL
+                       WRITE_DAC
+                       WRITE_OWNER
+            ACE 1.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   Font Driver Host\UMFD-2 (S-1-5-96-0-2)
+                Flags: None
+                Perms: [000f01ff] 
+                       DESKTOP_READOBJECTS
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_HOOKCONTROL
+                       DESKTOP_JOURNALRECORD
+                       DESKTOP_JOURNALPLAYBACK
+                       DESKTOP_ENUMERATE
+                       DESKTOP_WRITEOBJECTS
+                       DESKTOP_SWITCHDESKTOP
+                       DELETE
+                       READ_CONTROL
+                       WRITE_DAC
+                       WRITE_OWNER
+            ACE 2.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   Window Manager\DWM-2 (S-1-5-90-0-2)
+                Flags: None
+                Perms: [000f01ff] 
+                       DESKTOP_READOBJECTS
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_HOOKCONTROL
+                       DESKTOP_JOURNALRECORD
+                       DESKTOP_JOURNALPLAYBACK
+                       DESKTOP_ENUMERATE
+                       DESKTOP_WRITEOBJECTS
+                       DESKTOP_SWITCHDESKTOP
+                       DELETE
+                       READ_CONTROL
+                       WRITE_DAC
+                       WRITE_OWNER
+            ACE 3.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   NT AUTHORITY\RESTRICTED (S-1-5-12)
+                Flags: None
+                Perms: [000f01ff] 
+                       DESKTOP_READOBJECTS
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_HOOKCONTROL
+                       DESKTOP_JOURNALRECORD
+                       DESKTOP_JOURNALPLAYBACK
+                       DESKTOP_ENUMERATE
+                       DESKTOP_WRITEOBJECTS
+                       DESKTOP_SWITCHDESKTOP
+                       DELETE
+                       READ_CONTROL
+                       WRITE_DAC
+                       WRITE_OWNER
+            ACE 4.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   BUILTIN\Administrators (S-1-5-32-544)
+                Flags: None
+                Perms: [000201c7] 
+                       DESKTOP_READOBJECTS
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_ENUMERATE
+                       DESKTOP_WRITEOBJECTS
+                       DESKTOP_SWITCHDESKTOP
+                       READ_CONTROL
+            ACE 5.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   NT AUTHORITY\SYSTEM (S-1-5-18)
+                Flags: None
+                Perms: [000f01ff] 
+                       DESKTOP_READOBJECTS
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_HOOKCONTROL
+                       DESKTOP_JOURNALRECORD
+                       DESKTOP_JOURNALPLAYBACK
+                       DESKTOP_ENUMERATE
+                       DESKTOP_WRITEOBJECTS
+                       DESKTOP_SWITCHDESKTOP
+                       DELETE
+                       READ_CONTROL
+                       WRITE_DAC
+                       WRITE_OWNER
+            ACE 6.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   APPLICATION PACKAGE AUTHORITY\ALL RESTRICTED APPLICATION PACKAGES (S-1-15-2-2)
+                Flags: None
+                Perms: [000f00ff] 
+                       DESKTOP_READOBJECTS
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_HOOKCONTROL
+                       DESKTOP_JOURNALRECORD
+                       DESKTOP_JOURNALPLAYBACK
+                       DESKTOP_ENUMERATE
+                       DESKTOP_WRITEOBJECTS
+                       DELETE
+                       READ_CONTROL
+                       WRITE_DAC
+                       WRITE_OWNER
+            ACE 7.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES (S-1-15-2-1)
+                Flags: None
+                Perms: [000f00ff] 
+                       DESKTOP_READOBJECTS
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_HOOKCONTROL
+                       DESKTOP_JOURNALRECORD
+                       DESKTOP_JOURNALPLAYBACK
+                       DESKTOP_ENUMERATE
+                       DESKTOP_WRITEOBJECTS
+                       DELETE
+                       READ_CONTROL
+                       WRITE_DAC
+                       WRITE_OWNER
+            ACEs in SACL:  1
+            ACE 0.
+                SYSTEM_MANDATORY_LABEL_ACE_TYPE
+                SID:   Mandatory Label\Low Mandatory Level (S-1-16-4096)
+                Flags: None
+                Perms: [00000001] 
+                       DESKTOP_READOBJECTS
+
+
+        Name : Disconnect
+          Flags    : 0x00000000
+          User     : NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+          Heap size: 96 KB
+          UserInput: No
+          Security descriptor:
+            Control:  0x8004  (SE_DACL_PRESENT SE_SELF_RELATIVE )
+            Owner:    BUILTIN\Administrators (S-1-5-32-544)
+            Group:    NT AUTHORITY\SYSTEM (S-1-5-18)
+            ACEs in DACL:  1
+            ACE 0.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   NT AUTHORITY\SYSTEM (S-1-5-18)
+                Flags: None
+                Perms: [000f01ff] 
+                       DESKTOP_READOBJECTS
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_HOOKCONTROL
+                       DESKTOP_JOURNALRECORD
+                       DESKTOP_JOURNALPLAYBACK
+                       DESKTOP_ENUMERATE
+                       DESKTOP_WRITEOBJECTS
+                       DESKTOP_SWITCHDESKTOP
+                       DELETE
+                       READ_CONTROL
+                       WRITE_DAC
+                       WRITE_OWNER
+
+
+        Name : Winlogon
+          Flags    : 0x00000000
+          User     : NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+          Heap size: 192 KB
+          UserInput: No
+          Security descriptor:
+            Control:  0x8004  (SE_DACL_PRESENT SE_SELF_RELATIVE )
+            Owner:    BUILTIN\Administrators (S-1-5-32-544)
+            Group:    NT AUTHORITY\SYSTEM (S-1-5-18)
+            ACEs in DACL:  2
+            ACE 0.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   BUILTIN\Administrators (S-1-5-32-544)
+                Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+                Perms: [000f0040] 
+                       DESKTOP_ENUMERATE
+                       DELETE
+                       READ_CONTROL
+                       WRITE_DAC
+                       WRITE_OWNER
+            ACE 1.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   NT AUTHORITY\SYSTEM (S-1-5-18)
+                Flags: None
+                Perms: [000f01ff] 
+                       DESKTOP_READOBJECTS
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_HOOKCONTROL
+                       DESKTOP_JOURNALRECORD
+                       DESKTOP_JOURNALPLAYBACK
+                       DESKTOP_ENUMERATE
+                       DESKTOP_WRITEOBJECTS
+                       DESKTOP_SWITCHDESKTOP
+                       DELETE
+                       READ_CONTROL
+                       WRITE_DAC
+                       WRITE_OWNER
+
+
+
+    WS name    : Service-0x0-705c8$
+      Flags    : 0x00000000
+      User     : (no user)
+      Security descriptor:
+        Control:  0x8014  (SE_DACL_PRESENT SE_SACL_PRESENT SE_SELF_RELATIVE )
+        Owner:    DESKTOP-UTG6ND7\Admin (S-1-5-21-3520235625-995461104-4200055797-1001)
+        Group:    DESKTOP-UTG6ND7\None (S-1-5-21-3520235625-995461104-4200055797-513)
+        ACEs in DACL:  15
+        ACE 0.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   DESKTOP-UTG6ND7\Admin (S-1-5-21-3520235625-995461104-4200055797-1001)
+            Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+            Perms: [00000024] 
+                   WINSTA_ACCESSCLIPBOARD
+                   WINSTA_ACCESSGLOBALATOMS
+        ACE 1.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+            Flags: [0000000b] CONTAINER_INHERIT_ACE INHERIT_ONLY_ACE OBJECT_INHERIT_ACE 
+            Perms: [f0000000] 
+                   GENERIC_READ
+                   GENERIC_WRITE
+                   GENERIC_EXECUTE
+                   GENERIC_ALL
+        ACE 2.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+            Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+            Perms: [000f037f] 
+                   WINSTA_ENUMDESKTOPS
+                   WINSTA_READATTRIBUTES
+                   WINSTA_ACCESSCLIPBOARD
+                   WINSTA_CREATEDESKTOP
+                   WINSTA_WRITEATTRIBUTES
+                   WINSTA_ACCESSGLOBALATOMS
+                   WINSTA_EXITWINDOWS
+                   WINSTA_ENUMERATE
+                   WINSTA_READSCREEN
+                   DELETE
+                   READ_CONTROL
+                   WRITE_DAC
+                   WRITE_OWNER
+        ACE 3.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   Font Driver Host\UMFD-2 (S-1-5-96-0-2)
+            Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+            Perms: [00020363] 
+                   WINSTA_ENUMDESKTOPS
+                   WINSTA_READATTRIBUTES
+                   WINSTA_ACCESSGLOBALATOMS
+                   WINSTA_EXITWINDOWS
+                   WINSTA_ENUMERATE
+                   WINSTA_READSCREEN
+                   READ_CONTROL
+        ACE 4.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   Window Manager\DWM-2 (S-1-5-90-0-2)
+            Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+            Perms: [000f037f] 
+                   WINSTA_ENUMDESKTOPS
+                   WINSTA_READATTRIBUTES
+                   WINSTA_ACCESSCLIPBOARD
+                   WINSTA_CREATEDESKTOP
+                   WINSTA_WRITEATTRIBUTES
+                   WINSTA_ACCESSGLOBALATOMS
+                   WINSTA_EXITWINDOWS
+                   WINSTA_ENUMERATE
+                   WINSTA_READSCREEN
+                   DELETE
+                   READ_CONTROL
+                   WRITE_DAC
+                   WRITE_OWNER
+        ACE 5.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   NT AUTHORITY\RESTRICTED (S-1-5-12)
+            Flags: [0000000b] CONTAINER_INHERIT_ACE INHERIT_ONLY_ACE OBJECT_INHERIT_ACE 
+            Perms: [f0000000] 
+                   GENERIC_READ
+                   GENERIC_WRITE
+                   GENERIC_EXECUTE
+                   GENERIC_ALL
+        ACE 6.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   NT AUTHORITY\RESTRICTED (S-1-5-12)
+            Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+            Perms: [000f037f] 
+                   WINSTA_ENUMDESKTOPS
+                   WINSTA_READATTRIBUTES
+                   WINSTA_ACCESSCLIPBOARD
+                   WINSTA_CREATEDESKTOP
+                   WINSTA_WRITEATTRIBUTES
+                   WINSTA_ACCESSGLOBALATOMS
+                   WINSTA_EXITWINDOWS
+                   WINSTA_ENUMERATE
+                   WINSTA_READSCREEN
+                   DELETE
+                   READ_CONTROL
+                   WRITE_DAC
+                   WRITE_OWNER
+        ACE 7.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   BUILTIN\Administrators (S-1-5-32-544)
+            Flags: [0000000b] CONTAINER_INHERIT_ACE INHERIT_ONLY_ACE OBJECT_INHERIT_ACE 
+            Perms: [200000c7] 
+                   GENERIC_EXECUTE
+                   WINSTA_ENUMDESKTOPS
+                   WINSTA_READATTRIBUTES
+                   WINSTA_ACCESSCLIPBOARD
+                   WINSTA_EXITWINDOWS
+                   00000080
+        ACE 8.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   BUILTIN\Administrators (S-1-5-32-544)
+            Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+            Perms: [00020166] 
+                   WINSTA_READATTRIBUTES
+                   WINSTA_ACCESSCLIPBOARD
+                   WINSTA_ACCESSGLOBALATOMS
+                   WINSTA_EXITWINDOWS
+                   WINSTA_ENUMERATE
+                   READ_CONTROL
+        ACE 9.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   NT AUTHORITY\SYSTEM (S-1-5-18)
+            Flags: [0000000b] CONTAINER_INHERIT_ACE INHERIT_ONLY_ACE OBJECT_INHERIT_ACE 
+            Perms: [f0000000] 
+                   GENERIC_READ
+                   GENERIC_WRITE
+                   GENERIC_EXECUTE
+                   GENERIC_ALL
+        ACE 10.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   NT AUTHORITY\SYSTEM (S-1-5-18)
+            Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+            Perms: [000f037f] 
+                   WINSTA_ENUMDESKTOPS
+                   WINSTA_READATTRIBUTES
+                   WINSTA_ACCESSCLIPBOARD
+                   WINSTA_CREATEDESKTOP
+                   WINSTA_WRITEATTRIBUTES
+                   WINSTA_ACCESSGLOBALATOMS
+                   WINSTA_EXITWINDOWS
+                   WINSTA_ENUMERATE
+                   WINSTA_READSCREEN
+                   DELETE
+                   READ_CONTROL
+                   WRITE_DAC
+                   WRITE_OWNER
+        ACE 11.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   APPLICATION PACKAGE AUTHORITY\ALL RESTRICTED APPLICATION PACKAGES (S-1-15-2-2)
+            Flags: [0000000b] CONTAINER_INHERIT_ACE INHERIT_ONLY_ACE OBJECT_INHERIT_ACE 
+            Perms: [a0000000] 
+                   GENERIC_READ
+                   GENERIC_EXECUTE
+        ACE 12.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   APPLICATION PACKAGE AUTHORITY\ALL RESTRICTED APPLICATION PACKAGES (S-1-15-2-2)
+            Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+            Perms: [00020327] 
+                   WINSTA_ENUMDESKTOPS
+                   WINSTA_READATTRIBUTES
+                   WINSTA_ACCESSCLIPBOARD
+                   WINSTA_ACCESSGLOBALATOMS
+                   WINSTA_ENUMERATE
+                   WINSTA_READSCREEN
+                   READ_CONTROL
+        ACE 13.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES (S-1-15-2-1)
+            Flags: [0000000b] CONTAINER_INHERIT_ACE INHERIT_ONLY_ACE OBJECT_INHERIT_ACE 
+            Perms: [a0000000] 
+                   GENERIC_READ
+                   GENERIC_EXECUTE
+        ACE 14.
+            ACCESS_ALLOWED_ACE_TYPE
+            SID:   APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES (S-1-15-2-1)
+            Flags: [00000004] NO_PROPAGATE_INHERIT_ACE 
+            Perms: [00020327] 
+                   WINSTA_ENUMDESKTOPS
+                   WINSTA_READATTRIBUTES
+                   WINSTA_ACCESSCLIPBOARD
+                   WINSTA_ACCESSGLOBALATOMS
+                   WINSTA_ENUMERATE
+                   WINSTA_READSCREEN
+                   READ_CONTROL
+        NULL SACL
+
+      Desktops in WS Service-0x0-705c8$: 1
+
+        Name : sbox_alternate_desktop_0x4170
+          Flags    : 0x00000000
+          User     : (no user)
+          Heap size: 768 KB
+          UserInput: No
+          Security descriptor:
+            Control:  0x8014  (SE_DACL_PRESENT SE_SACL_PRESENT SE_SELF_RELATIVE )
+            Owner:    DESKTOP-UTG6ND7\Admin (S-1-5-21-3520235625-995461104-4200055797-1001)
+            Group:    DESKTOP-UTG6ND7\None (S-1-5-21-3520235625-995461104-4200055797-513)
+            ACEs in DACL:  9
+            ACE 0.
+                ACCESS_DENIED_ACE_TYPE
+                SID:   NT AUTHORITY\RESTRICTED (S-1-5-12)
+                Flags: None
+                Perms: [000d013e] 
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_HOOKCONTROL
+                       DESKTOP_JOURNALRECORD
+                       DESKTOP_JOURNALPLAYBACK
+                       DESKTOP_SWITCHDESKTOP
+                       DELETE
+                       WRITE_DAC
+                       WRITE_OWNER
+            ACE 1.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+                Flags: None
+                Perms: [000f01ff] 
+                       DESKTOP_READOBJECTS
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_HOOKCONTROL
+                       DESKTOP_JOURNALRECORD
+                       DESKTOP_JOURNALPLAYBACK
+                       DESKTOP_ENUMERATE
+                       DESKTOP_WRITEOBJECTS
+                       DESKTOP_SWITCHDESKTOP
+                       DELETE
+                       READ_CONTROL
+                       WRITE_DAC
+                       WRITE_OWNER
+            ACE 2.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   Font Driver Host\UMFD-2 (S-1-5-96-0-2)
+                Flags: None
+                Perms: [000f01ff] 
+                       DESKTOP_READOBJECTS
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_HOOKCONTROL
+                       DESKTOP_JOURNALRECORD
+                       DESKTOP_JOURNALPLAYBACK
+                       DESKTOP_ENUMERATE
+                       DESKTOP_WRITEOBJECTS
+                       DESKTOP_SWITCHDESKTOP
+                       DELETE
+                       READ_CONTROL
+                       WRITE_DAC
+                       WRITE_OWNER
+            ACE 3.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   Window Manager\DWM-2 (S-1-5-90-0-2)
+                Flags: None
+                Perms: [000f01ff] 
+                       DESKTOP_READOBJECTS
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_HOOKCONTROL
+                       DESKTOP_JOURNALRECORD
+                       DESKTOP_JOURNALPLAYBACK
+                       DESKTOP_ENUMERATE
+                       DESKTOP_WRITEOBJECTS
+                       DESKTOP_SWITCHDESKTOP
+                       DELETE
+                       READ_CONTROL
+                       WRITE_DAC
+                       WRITE_OWNER
+            ACE 4.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   NT AUTHORITY\RESTRICTED (S-1-5-12)
+                Flags: None
+                Perms: [000f01ff] 
+                       DESKTOP_READOBJECTS
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_HOOKCONTROL
+                       DESKTOP_JOURNALRECORD
+                       DESKTOP_JOURNALPLAYBACK
+                       DESKTOP_ENUMERATE
+                       DESKTOP_WRITEOBJECTS
+                       DESKTOP_SWITCHDESKTOP
+                       DELETE
+                       READ_CONTROL
+                       WRITE_DAC
+                       WRITE_OWNER
+            ACE 5.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   BUILTIN\Administrators (S-1-5-32-544)
+                Flags: None
+                Perms: [000201c7] 
+                       DESKTOP_READOBJECTS
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_ENUMERATE
+                       DESKTOP_WRITEOBJECTS
+                       DESKTOP_SWITCHDESKTOP
+                       READ_CONTROL
+            ACE 6.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   NT AUTHORITY\SYSTEM (S-1-5-18)
+                Flags: None
+                Perms: [000f01ff] 
+                       DESKTOP_READOBJECTS
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_HOOKCONTROL
+                       DESKTOP_JOURNALRECORD
+                       DESKTOP_JOURNALPLAYBACK
+                       DESKTOP_ENUMERATE
+                       DESKTOP_WRITEOBJECTS
+                       DESKTOP_SWITCHDESKTOP
+                       DELETE
+                       READ_CONTROL
+                       WRITE_DAC
+                       WRITE_OWNER
+            ACE 7.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   APPLICATION PACKAGE AUTHORITY\ALL RESTRICTED APPLICATION PACKAGES (S-1-15-2-2)
+                Flags: None
+                Perms: [000f00ff] 
+                       DESKTOP_READOBJECTS
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_HOOKCONTROL
+                       DESKTOP_JOURNALRECORD
+                       DESKTOP_JOURNALPLAYBACK
+                       DESKTOP_ENUMERATE
+                       DESKTOP_WRITEOBJECTS
+                       DELETE
+                       READ_CONTROL
+                       WRITE_DAC
+                       WRITE_OWNER
+            ACE 8.
+                ACCESS_ALLOWED_ACE_TYPE
+                SID:   APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES (S-1-15-2-1)
+                Flags: None
+                Perms: [000f00ff] 
+                       DESKTOP_READOBJECTS
+                       DESKTOP_CREATEWINDOW
+                       DESKTOP_CREATEMENU
+                       DESKTOP_HOOKCONTROL
+                       DESKTOP_JOURNALRECORD
+                       DESKTOP_JOURNALPLAYBACK
+                       DESKTOP_ENUMERATE
+                       DESKTOP_WRITEOBJECTS
+                       DELETE
+                       READ_CONTROL
+                       WRITE_DAC
+                       WRITE_OWNER
+            ACEs in SACL:  1
+            ACE 0.
+                SYSTEM_MANDATORY_LABEL_ACE_TYPE
+                SID:   Mandatory Label\Low Mandatory Level (S-1-16-4096)
+                Flags: None
+                Perms: [00000000] 
+
+
+

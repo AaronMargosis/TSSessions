@@ -1,0 +1,281 @@
+This process/thread running in:
+
+    TS Session:  2
+
+    WinSta:      WinSta0
+    User:        NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+    Flags:       0x00000001 WSF_VISIBLE
+
+    Desktop:     Default
+    User:        NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+    Flags:       0x00000000
+    Heap size:   20480 KB
+
+    Running as:  S-1-5-18 - NT AUTHORITY\SYSTEM
+
+Current user input Desktop: Default
+
+Console Session = 4
+
+Are child sessions enabled? No
+
+Terminal sessions: 5
+
+    Session ID           : 0
+    Session Name         : Services
+    State                : Disconnected
+    SessionFlags         : WTS_SESSIONSTATE_UNKNOWN
+    DomainName           : 
+    UserName             : 
+    LogonTime            : 
+    ConnectTime          : 
+    DisconnectTime       : 
+    LastInputTime        : 
+    CurrentTime          : 2024-09-18 03:45:02.002
+    No Token
+
+    Session ID           : 1
+    Session Name         : 
+    State                : Disconnected
+    SessionFlags         : WTS_SESSIONSTATE_LOCK
+    DomainName           : DESKTOP-UTG6ND7
+    UserName             : Toby
+    LogonTime            : 2024-09-18 03:28:14.422
+    ConnectTime          : 2024-09-18 03:26:54.467
+    DisconnectTime       : 2024-09-18 03:30:22.872
+    LastInputTime        : 2024-09-18 03:30:22.872
+    CurrentTime          : 2024-09-18 03:45:02.002
+    * User token:
+    Token user SID       : S-1-5-21-3520235625-995461104-4200055797-1002
+    Token logon session  : 00000000:0011b19c
+    Token integrity level: Medium
+
+    Session ID           : 2
+    Session Name         : 31C5CE94259D4006A9E4#0
+    State                : Active
+    SessionFlags         : WTS_SESSIONSTATE_UNLOCK
+    DomainName           : DESKTOP-UTG6ND7
+    UserName             : Admin
+    LogonTime            : 2024-09-18 03:27:14.832
+    ConnectTime          : 2024-09-18 03:30:23.248
+    DisconnectTime       : 2024-09-18 03:30:23.107
+    LastInputTime        : 2024-09-18 03:45:01.981
+    CurrentTime          : 2024-09-18 03:45:02.002
+    * User token:
+    Token user SID       : S-1-5-21-3520235625-995461104-4200055797-1001
+    Token logon session  : 00000000:000705c8
+    Token integrity level: Medium
+    * Linked token:
+    Token user SID       : S-1-5-21-3520235625-995461104-4200055797-1001
+    Token logon session  : 00000000:000705a0
+    Token integrity level: High
+
+    Session ID           : 4
+    Session Name         : Console
+    State                : Connected
+    SessionFlags         : WTS_SESSIONSTATE_LOCK
+    DomainName           : 
+    UserName             : 
+    LogonTime            : 
+    ConnectTime          : 2024-09-18 03:30:22.950
+    DisconnectTime       : 
+    LastInputTime        : 
+    CurrentTime          : 2024-09-18 03:45:02.002
+    No Token
+
+    Session ID           : 65536
+    Session Name         : 31C5CE94259D4006A9E4
+    State                : Listen
+    SessionFlags         : WTS_SESSIONSTATE_LOCK
+    DomainName           : 
+    UserName             : 
+    LogonTime            : 
+    ConnectTime          : 
+    DisconnectTime       : 
+    LastInputTime        : 
+    CurrentTime          : 
+    No Token
+
+Window stations in the current session: 2
+
+    WS name    : WinSta0
+      Flags    : 0x00000001 WSF_VISIBLE
+      User     : NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+      Desktops in WS WinSta0: 3
+
+        Name : Default
+          Flags    : 0x00000000
+          User     : NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+          Heap size: 20480 KB
+          UserInput: Yes
+          Top-level windows: 131
+            HWND     IsVis?  Window class                        Window text                                             PID   Process name
+            0001002E Hidden  Dwm                                 DWM Notification Window                                 5832  dwm.exe
+            0001008A Hidden  RdpClipMainWindowClass                                                                      6916  rdpclip.exe
+            0001009A Hidden  COMTASKSWINDOWCLASS                 Task Host Window                                        7760  taskhostw.exe
+            0001009E Hidden  DDEMLMom                                                                                    7732  explorer.exe
+            000100A0 Hidden  IME                                 Default IME                                             7732  explorer.exe
+            000100A2 Hidden  DDEMLEvent                                                                                  7732  explorer.exe
+            000100B6 Hidden  PushNotificationsPowerManagement    Windows Push Notifications Platform                     7244  svchost.exe
+            000100B8 Hidden  IME                                 Default IME                                             7244  svchost.exe
+            000100DA Visible Shell_TrayWnd                                                                               7732  explorer.exe
+            000100DC Hidden  IME                                 Default IME                                             7732  explorer.exe
+            000100EE Hidden  tooltips_class32                                                                            7732  explorer.exe
+            000100F0 Hidden  NotifyIconOverflowWindow                                                                    7732  explorer.exe
+            000100F6 Hidden  tooltips_class32                                                                            7732  explorer.exe
+            000100FA Hidden  tooltips_class32                                                                            7732  explorer.exe
+            00010100 Hidden  tooltips_class32                                                                            7732  explorer.exe
+            00010106 Hidden  tooltips_class32                                                                            7732  explorer.exe
+            0001010A Hidden  tooltips_class32                                                                            7732  explorer.exe
+            00010112 Hidden  tooltips_class32                                                                            7732  explorer.exe
+            00010116 Hidden  tooltips_class32                                                                            7732  explorer.exe
+            0001011E Hidden  MSCTFIME UI                         MSCTFIME UI                                             7732  explorer.exe
+            00010120 Hidden  WorkerW                                                                                     7732  explorer.exe
+            00010122 Hidden  WorkerW                                                                                     7732  explorer.exe
+            00010124 Hidden  IME                                 Default IME                                             7732  explorer.exe
+            00010128 Visible Progman                             Program Manager                                         7732  explorer.exe
+            0001012E Hidden  tooltips_class32                                                                            7732  explorer.exe
+            0001013E Hidden  MSCTFIME UI                         MSCTFIME UI                                             7732  explorer.exe
+            00010140 Hidden  WorkerW                                                                                     7732  explorer.exe
+            00010142 Hidden  WorkerW                                                                                     7732  explorer.exe
+            00010144 Hidden  IME                                 Default IME                                             7732  explorer.exe
+            00010146 Hidden  ApplicationManager_DesktopShellW...                                                         7732  explorer.exe
+            00010154 Hidden  ForegroundStaging                                                                           7732  explorer.exe
+            00010156 Visible DummyDWMListenerWindow                                                                      7732  explorer.exe
+            00010158 Visible DummyDWMListenerWindow                                                                      7732  explorer.exe
+            0001015A Visible DummyDWMListenerWindow                                                                      7732  explorer.exe
+            0001015C Visible DummyDWMListenerWindow                                                                      7732  explorer.exe
+            00010164 Hidden  Postures Broadcast Listener Class                                                           7732  explorer.exe
+            0001017C Visible DummyDWMListenerWindow                                                                      7732  explorer.exe
+            00010186 Hidden  ForegroundStaging                                                                           7732  explorer.exe
+            00010188 Hidden  IME                                 Default IME                                             7732  explorer.exe
+            000101B4 Hidden  WorkerW                                                                                     7732  explorer.exe
+            000101B6 Hidden  WorkerW                                                                                     7732  explorer.exe
+            00010206 Hidden  ServiceWorkerGlobalScopeHost Win...                                                         2096  SearchHost.exe
+            00010208 Hidden  IME                                 Default IME                                             2096  SearchHost.exe
+            00010220 Hidden  WorkerW                                                                                     8196  RuntimeBroker.exe
+            00010222 Hidden  IME                                 Default IME                                             8196  RuntimeBroker.exe
+            00010228 Hidden  IME                                 Default IME                                             7732  explorer.exe
+            00010238 Hidden  ATL:00007FFC1F290550                                                                        7732  explorer.exe
+            0001023A Hidden  IME                                 Default IME                                             7732  explorer.exe
+            0001023E Hidden  WorkerW                                                                                     7732  explorer.exe
+            00010240 Hidden  IME                                 Default IME                                             7732  explorer.exe
+            0001024E Hidden  MS_WebcheckMonitor                  MS_WebcheckMonitor                                      7732  explorer.exe
+            0001028C Hidden  ATL:00007FFC1471D230                Network Flyout                                          7732  explorer.exe
+            00010452 Hidden  WorkerW                                                                                     7732  explorer.exe
+            00010454 Hidden  IME                                 Default IME                                             7732  explorer.exe
+            00020016 Hidden  00007FF71F55AC18-PAL_SYS_WIN32_T...                                                         6916  rdpclip.exe
+            00020018 Hidden  IME                                 Default IME                                             6916  rdpclip.exe
+            0002001A Hidden  URBRedirectorDeviceNotifications                                                            6916  rdpclip.exe
+            0002008C Hidden  RdpClipRdrWindowClass                                                                       6916  rdpclip.exe
+            00020092 Hidden  IME                                 Default IME                                             6916  rdpclip.exe
+            000200CE Hidden  WorkerW                                                                                     7732  explorer.exe
+            0002011A Hidden  WorkerW                                                                                     7732  explorer.exe
+            00020224 Hidden  OleDdeWndClass                      DDE Server Window                                       7732  explorer.exe
+            00020226 Hidden  SystemTray_Main                     Battery Meter                                           7732  explorer.exe
+            0002025C Hidden  BluetoothNotificationAreaIconWin... BluetoothNotificationAreaIconWindowClass                7732  explorer.exe
+            0002028A Hidden  PNIHiddenWnd                                                                                7732  explorer.exe
+            000202DA Hidden  IME                                 Default IME                                             9828  LocationNotificationWindows.exe
+            000202DE Hidden  LOCATIONNOTIFICATION                Location Notification                                   9828  LocationNotificationWindows.exe
+            00020328 Hidden  00007FF71F55AC18-PAL_SYS_WIN32_T...                                                         6916  rdpclip.exe
+            000203A8 Hidden  MSCTFIME UI                         MSCTFIME UI                                             3648  WindowsTerminal.exe
+            000203D0 Hidden  IME                                 Default IME                                             3648  WindowsTerminal.exe
+            000203F0 Hidden  IME                                 Default IME                                             15804 OpenConsole.exe
+            000203F6 Visible PseudoConsoleWindow                                                                         6272  powershell.exe
+            00020424 Visible WorkerW                                                                                     7732  explorer.exe
+            00020490 Hidden  IME                                 Default IME                                             7732  explorer.exe
+            0003004A Hidden  SkyDrive Class Name {090B42FF-7B... OneDrive - Personal                                     4916  OneDrive.exe
+            00030050 Hidden  IME                                 Default IME                                             4916  OneDrive.exe
+            00030052 Hidden  ATL:00007FFC29DCE050                                                                        4916  OneDrive.exe
+            00030090 Hidden  CicLoaderWndClass                                                                           4716  ctfmon.exe
+            000300BC Hidden  IME                                 Default IME                                             852   conhost.exe
+            000300D4 Hidden  Windows.UI.Core.CoreWindow          DesktopWindowXamlSource                                 7732  explorer.exe
+            000300E0 Hidden  IME                                 Default IME                                             7732  explorer.exe
+            00030168 Visible EdgeUiInputTopWndClass                                                                      7732  explorer.exe
+            0003017A Hidden  TabletModeCoverWindow                                                                       7732  explorer.exe
+            000301D6 Hidden  SecHealth Window Class              SecurityHealthSystray                                   9604  SecurityHealthSystray.exe
+            0003029E Hidden  IME                                 Default IME                                             9604  SecurityHealthSystray.exe
+            000302AC Hidden  IME                                 Default IME                                             4916  OneDrive.exe
+            000302B6 Hidden  .NET-BroadcastEventWindow.2b89eaa.0 .NET-BroadcastEventWindow.2b89eaa.0                     3604  PhoneExperienceHost.exe
+            000302CA Hidden  IME                                 Default IME                                             3604  PhoneExperienceHost.exe
+            000302CC Hidden  IME                                 Default IME                                             4916  OneDrive.exe
+            000302D2 Hidden  ATL:00007FFC29DCE050                                                                        4916  OneDrive.exe
+            000302F0 Hidden  ATL:00007FFC0195D000                                                                        9604  SecurityHealthSystray.exe
+            000302FE Hidden  MSCTFIME UI                         MSCTFIME UI                                             4916  OneDrive.exe
+            00030380 Hidden  WorkerW                                                                                     10196 RuntimeBroker.exe
+            0003038A Hidden  Windows.UI.Core.CoreWindow          DesktopWindowXamlSource                                 3648  WindowsTerminal.exe
+            000303F8 Visible                                                                                             7732  explorer.exe
+            0003041A Hidden  MSCTFIME UI                         MSCTFIME UI                                             7732  explorer.exe
+            00030420 Hidden  Windows.UI.Core.CoreWindow          DesktopWindowXamlSource                                 7732  explorer.exe
+            00030470 Hidden  IME                                 Default IME                                             10196 RuntimeBroker.exe
+            0004002A Hidden  OleDdeWndClass                      DDE Server Window                                       4916  OneDrive.exe
+            000400AC Hidden  .class.1                                                                                    3508  GameBarFTServer.exe
+            0004016C Hidden  IME                                 Default IME                                             7732  explorer.exe
+            000401D0 Hidden  IME                                 Default IME                                             4916  OneDrive.exe
+            000401E4 Hidden  MSCTFIME UI                         MSCTFIME UI                                             852   conhost.exe
+            000401FA Visible ApplicationFrameWindow                                                                      7732  explorer.exe
+            000402CE Hidden  ATL:00007FFC29DCE050                                                                        4916  OneDrive.exe
+            00050270 Visible ApplicationFrameWindow                                                                      7732  explorer.exe
+            000502BA Hidden  OneDriveReactNativeWin32WindowClass                                                         4916  OneDrive.exe
+            000502BC Hidden  IME                                 Default IME                                             15228 RuntimeBroker.exe
+            000502D4 Hidden  ATL:00007FFC29DCE050                                                                        4916  OneDrive.exe
+            00050364 Visible CASCADIA_HOSTING_WINDOW_CLASS       Administrator: Windows PowerShell                       3648  WindowsTerminal.exe
+            000602A2 Hidden  WorkerW                                                                                     15228 RuntimeBroker.exe
+            000602D0 Hidden  IME                                 Default IME                                             6916  rdpclip.exe
+            000603A0 Hidden  IME                                 Default IME                                             2484  msedge.exe
+            00060466 Visible ConsoleWindowClass                  Administrator: C:\Windows\System32\WindowsPowerShell... 5756  powershell.exe
+            00060472 Hidden  Base_PowerMessageWindow                                                                     16752 msedge.exe
+            00070036 Hidden  Xaml_WindowedPopupClass             PopupHost                                               7732  explorer.exe
+            000700C6 Hidden  IME                                 Default IME                                             3648  WindowsTerminal.exe
+            0007047A Hidden  Chrome_WidgetWin_0                                                                          13020 msedge.exe
+            0008005C Hidden  Chrome_StatusTrayWindow                                                                     16752 msedge.exe
+            000802FC Hidden  IME                                 Default IME                                             3508  GameBarFTServer.exe
+            0008038E Hidden  IME                                 Default IME                                             13020 msedge.exe
+            000803D6 Hidden  GDI+ Hook Window Class              GDI+ Window (Explorer.EXE)                              7732  explorer.exe
+            0008044E Hidden  Chrome_WidgetWin_0                                                                          13020 msedge.exe
+            00080486 Hidden  Chrome_WidgetWin_0                                                                          16752 msedge.exe
+            000A0072 Hidden  crashpad_SessionEndWatcher                                                                  2484  msedge.exe
+            000A031E Hidden  Chrome_WidgetWin_1                  Copilot (preview)                                       16752 msedge.exe
+            000A048E Hidden  IME                                 Default IME                                             13020 msedge.exe
+            000B0416 Hidden  Chrome_WidgetWin_0                                                                          16752 msedge.exe
+            000D02C6 Hidden  MSCTFIME UI                         MSCTFIME UI                                             7732  explorer.exe
+            000D0358 Visible WorkerW                                                                                     7732  explorer.exe
+            000D039A Hidden  IME                                 Default IME                                             16752 msedge.exe
+
+        Name : Disconnect
+          Flags    : 0x00000000
+          User     : NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+          Heap size: 96 KB
+          UserInput: No
+          Top-level windows: 2
+            HWND     IsVis?  Window class Window text PID  Process name
+            0001000A Visible #32769                   5500 csrss.exe
+            0001000E Hidden  #32774                   5500 csrss.exe
+
+        Name : Winlogon
+          Flags    : 0x00000000
+          User     : NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+          Heap size: 192 KB
+          UserInput: No
+          Top-level windows: 2
+            HWND     IsVis?  Window class Window text PID  Process name
+            00010004 Visible #32769                   5500 csrss.exe
+            00010008 Hidden  #32774                   5500 csrss.exe
+
+
+    WS name    : Service-0x0-705c8$
+      Flags    : 0x00000000
+      User     : (no user)
+      Desktops in WS Service-0x0-705c8$: 1
+
+        Name : sbox_alternate_desktop_0x4170
+          Flags    : 0x00000000
+          User     : (no user)
+          Heap size: 768 KB
+          UserInput: No
+          Top-level windows: 2
+            HWND     IsVis?  Window class          Window text   PID  Process name
+            00070480 Hidden  #32769                              5500 csrss.exe
+            000C0314 Hidden  OleMainThreadWndClass OLEChannelWnd 6904 msedge.exe
+
+

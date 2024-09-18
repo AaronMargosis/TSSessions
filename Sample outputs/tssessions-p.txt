@@ -1,0 +1,362 @@
+This process/thread running in:
+
+    TS Session:  2
+
+    WinSta:      WinSta0
+    User:        NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+    Flags:       0x00000001 WSF_VISIBLE
+
+    Desktop:     Default
+    User:        NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+    Flags:       0x00000000
+    Heap size:   20480 KB
+
+    Running as:  S-1-5-18 - NT AUTHORITY\SYSTEM
+
+Current user input Desktop: Default
+
+Console Session = 4
+
+Are child sessions enabled? No
+
+Terminal sessions: 5
+
+    Session ID           : 0
+    Session Name         : Services
+    State                : Disconnected
+    SessionFlags         : WTS_SESSIONSTATE_UNKNOWN
+    DomainName           : 
+    UserName             : 
+    LogonTime            : 
+    ConnectTime          : 
+    DisconnectTime       : 
+    LastInputTime        : 
+    CurrentTime          : 2024-09-18 03:44:37.034
+    No Token
+    Processes:
+        0                                 
+        4      System                     NT AUTHORITY\SYSTEM
+        172    Registry                   NT AUTHORITY\SYSTEM
+        768    smss.exe                   NT AUTHORITY\SYSTEM
+        908    csrss.exe                  NT AUTHORITY\SYSTEM
+        980    wininit.exe                NT AUTHORITY\SYSTEM
+        1044   services.exe               NT AUTHORITY\SYSTEM
+        1068   lsass.exe                  NT AUTHORITY\SYSTEM
+        1192   svchost.exe                NT AUTHORITY\SYSTEM
+        1228   fontdrvhost.exe            Font Driver Host\UMFD-0
+        1316   svchost.exe                NT AUTHORITY\NETWORK SERVICE
+        1368   svchost.exe                NT AUTHORITY\SYSTEM
+        1464   svchost.exe                NT AUTHORITY\NETWORK SERVICE
+        1488   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        1572   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        1608   svchost.exe                NT AUTHORITY\NETWORK SERVICE
+        1640   svchost.exe                NT AUTHORITY\SYSTEM
+        1648   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        1800   svchost.exe                NT AUTHORITY\SYSTEM
+        1828   svchost.exe                NT AUTHORITY\NETWORK SERVICE
+        1852   svchost.exe                NT AUTHORITY\SYSTEM
+        1868   svchost.exe                NT AUTHORITY\SYSTEM
+        1888   svchost.exe                NT AUTHORITY\SYSTEM
+        1916   svchost.exe                NT AUTHORITY\SYSTEM
+        1952   svchost.exe                NT AUTHORITY\SYSTEM
+        2016   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        820    svchost.exe                NT AUTHORITY\SYSTEM
+        2284   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        2308   VSSVC.exe                  NT AUTHORITY\SYSTEM
+        2540   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        2552   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        2724   svchost.exe                NT AUTHORITY\SYSTEM
+        2748   svchost.exe                NT AUTHORITY\NETWORK SERVICE
+        2776   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        2824   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        2904   svchost.exe                NT AUTHORITY\SYSTEM
+        2912   svchost.exe                NT AUTHORITY\SYSTEM
+        2916   svchost.exe                NT AUTHORITY\SYSTEM
+        2964   svchost.exe                NT AUTHORITY\SYSTEM
+        2972   svchost.exe                NT AUTHORITY\SYSTEM
+        3060   Memory Compression         NT AUTHORITY\SYSTEM
+        2580   svchost.exe                NT AUTHORITY\SYSTEM
+        2816   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        3092   svchost.exe                NT AUTHORITY\SYSTEM
+        3356   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        3428   svchost.exe                NT AUTHORITY\SYSTEM
+        3436   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        3608   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        3624   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        3688   svchost.exe                NT AUTHORITY\SYSTEM
+        3784   svchost.exe                NT AUTHORITY\SYSTEM
+        3896   spoolsv.exe                NT AUTHORITY\SYSTEM
+        3916   svchost.exe                NT AUTHORITY\SYSTEM
+        3924   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        3932   svchost.exe                NT AUTHORITY\NETWORK SERVICE
+        3192   svchost.exe                NT AUTHORITY\SYSTEM
+        3248   svchost.exe                NT AUTHORITY\NETWORK SERVICE
+        3200   svchost.exe                NT AUTHORITY\SYSTEM
+        3292   svchost.exe                NT AUTHORITY\SYSTEM
+        3416   svchost.exe                NT AUTHORITY\SYSTEM
+        3492   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        2264   svchost.exe                NT AUTHORITY\SYSTEM
+        4448   svchost.exe                NT AUTHORITY\SYSTEM
+        4924   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        3076   AggregatorHost.exe         NT AUTHORITY\SYSTEM
+        5200   svchost.exe                NT AUTHORITY\SYSTEM
+        5556   svchost.exe                NT AUTHORITY\SYSTEM
+        6328   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        7368   svchost.exe                NT AUTHORITY\SYSTEM
+        7544   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        7948   svchost.exe                NT AUTHORITY\SYSTEM
+        7512   svchost.exe                NT AUTHORITY\SYSTEM
+        9148   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        9300   svchost.exe                NT AUTHORITY\SYSTEM
+        9572   SecurityHealthService.exe  NT AUTHORITY\SYSTEM
+        9788   SearchIndexer.exe          NT AUTHORITY\SYSTEM
+        5892   svchost.exe                NT AUTHORITY\SYSTEM
+        9244   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        10340  svchost.exe                NT AUTHORITY\SYSTEM
+        10376  svchost.exe                NT AUTHORITY\SYSTEM
+        11224  WmiPrvSE.exe               NT AUTHORITY\SYSTEM
+        5980   svchost.exe                NT AUTHORITY\SYSTEM
+        12260  svchost.exe                NT AUTHORITY\SYSTEM
+        14940  MicrosoftEdgeUpdate.exe    NT AUTHORITY\SYSTEM
+        14484  uhssvc.exe                 NT AUTHORITY\SYSTEM
+        2436   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        5968   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        9292   svchost.exe                NT AUTHORITY\SYSTEM
+        16340  SearchProtocolHost.exe     NT AUTHORITY\SYSTEM
+        13584  SearchFilterHost.exe       NT AUTHORITY\SYSTEM
+        14792  SearchFilterHost.exe       NT AUTHORITY\SYSTEM
+        14356  WUDFHost.exe               NT AUTHORITY\LOCAL SERVICE
+        7616   svchost.exe                NT AUTHORITY\SYSTEM
+        7896   svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        8396   svchost.exe                NT AUTHORITY\SYSTEM
+        11672  svchost.exe                NT AUTHORITY\LOCAL SERVICE
+        9524   svchost.exe                NT AUTHORITY\SYSTEM
+        5744   svchost.exe                NT AUTHORITY\SYSTEM
+        4684   svchost.exe                NT AUTHORITY\SYSTEM
+        4136   MpDefenderCoreService.exe  NT AUTHORITY\SYSTEM
+        10992  MsMpEng.exe                NT AUTHORITY\SYSTEM
+        4656   svchost.exe                NT AUTHORITY\SYSTEM
+        11532  svchost.exe                NT AUTHORITY\NETWORK SERVICE
+        4076   NisSrv.exe                 NT AUTHORITY\LOCAL SERVICE
+        5816   svchost.exe                NT AUTHORITY\SYSTEM
+        17260  audiodg.exe                NT AUTHORITY\LOCAL SERVICE
+        17972  WmiPrvSE.exe               NT AUTHORITY\NETWORK SERVICE
+        17536  TrustedInstaller.exe       NT AUTHORITY\SYSTEM
+        5356   MoUsoCoreWorker.exe        NT AUTHORITY\SYSTEM
+        17624  svchost.exe                NT AUTHORITY\SYSTEM
+        16540  svchost.exe                NT AUTHORITY\SYSTEM
+        19416  svchost.exe                NT AUTHORITY\SYSTEM
+
+    Session ID           : 1
+    Session Name         : 
+    State                : Disconnected
+    SessionFlags         : WTS_SESSIONSTATE_LOCK
+    DomainName           : DESKTOP-UTG6ND7
+    UserName             : Toby
+    LogonTime            : 2024-09-18 03:28:14.422
+    ConnectTime          : 2024-09-18 03:26:54.467
+    DisconnectTime       : 2024-09-18 03:30:22.872
+    LastInputTime        : 2024-09-18 03:30:22.872
+    CurrentTime          : 2024-09-18 03:44:37.034
+    * User token:
+    Token user SID       : S-1-5-21-3520235625-995461104-4200055797-1002
+    Token logon session  : 00000000:0011b19c
+    Token integrity level: Medium
+    Processes:
+        1000   csrss.exe                        NT AUTHORITY\SYSTEM
+        856    winlogon.exe                     NT AUTHORITY\SYSTEM
+        1220   fontdrvhost.exe                  Font Driver Host\UMFD-1
+        2300   dwm.exe                          Window Manager\DWM-1
+        9816   sihost.exe                       DESKTOP-UTG6ND7\Toby
+        5212   svchost.exe                      DESKTOP-UTG6ND7\Toby
+        5600   svchost.exe                      DESKTOP-UTG6ND7\Toby
+        4904   svchost.exe                      DESKTOP-UTG6ND7\Toby
+        3724   taskhostw.exe                    DESKTOP-UTG6ND7\Toby
+        10652  explorer.exe                     DESKTOP-UTG6ND7\Toby
+        7048   ctfmon.exe                       DESKTOP-UTG6ND7\Toby
+        10072  smartscreen.exe                  DESKTOP-UTG6ND7\Toby
+        5976   msedge.exe                       DESKTOP-UTG6ND7\Toby
+        11160  msedge.exe                       DESKTOP-UTG6ND7\Toby
+        1620   msedge.exe                       DESKTOP-UTG6ND7\Toby
+        3956   msedge.exe                       DESKTOP-UTG6ND7\Toby
+        3980   msedge.exe                       DESKTOP-UTG6ND7\Toby
+        11084  msedge.exe                       DESKTOP-UTG6ND7\Toby
+        11396  svchost.exe                      DESKTOP-UTG6ND7\Toby
+        12324  SearchHost.exe                   DESKTOP-UTG6ND7\Toby
+        12332  StartMenuExperienceHost.exe      DESKTOP-UTG6ND7\Toby
+        12536  WWAHost.exe                      DESKTOP-UTG6ND7\Toby
+        12544  RuntimeBroker.exe                DESKTOP-UTG6ND7\Toby
+        12612  RuntimeBroker.exe                DESKTOP-UTG6ND7\Toby
+        12776  svchost.exe                      DESKTOP-UTG6ND7\Toby
+        12872  RuntimeBroker.exe                DESKTOP-UTG6ND7\Toby
+        14052  dllhost.exe                      DESKTOP-UTG6ND7\Toby
+        14592  svchost.exe                      DESKTOP-UTG6ND7\Toby
+        4336   backgroundTaskHost.exe           DESKTOP-UTG6ND7\Toby
+        7856   backgroundTaskHost.exe           DESKTOP-UTG6ND7\Toby
+        9836   SecurityHealthSystray.exe        DESKTOP-UTG6ND7\Toby
+        15552  OneDrive.exe                     DESKTOP-UTG6ND7\Toby
+        13656  LogonUI.exe                      NT AUTHORITY\SYSTEM
+        13268  svchost.exe                      DESKTOP-UTG6ND7\Toby
+        13164  LocationNotificationWindows.exe  DESKTOP-UTG6ND7\Toby
+        15780  ShellExperienceHost.exe          DESKTOP-UTG6ND7\Toby
+        15012  RuntimeBroker.exe                DESKTOP-UTG6ND7\Toby
+        1308   SystemSettingsBroker.exe         DESKTOP-UTG6ND7\Toby
+        8000   svchost.exe                      DESKTOP-UTG6ND7\Toby
+        8604   RuntimeBroker.exe                DESKTOP-UTG6ND7\Toby
+        17864  backgroundTaskHost.exe           DESKTOP-UTG6ND7\Toby
+        10432  RuntimeBroker.exe                DESKTOP-UTG6ND7\Toby
+        16272  backgroundTaskHost.exe           DESKTOP-UTG6ND7\Toby
+        2360   RuntimeBroker.exe                DESKTOP-UTG6ND7\Toby
+        9256   backgroundTaskHost.exe           DESKTOP-UTG6ND7\Toby
+
+    Session ID           : 2
+    Session Name         : 31C5CE94259D4006A9E4#0
+    State                : Active
+    SessionFlags         : WTS_SESSIONSTATE_UNLOCK
+    DomainName           : DESKTOP-UTG6ND7
+    UserName             : Admin
+    LogonTime            : 2024-09-18 03:27:14.832
+    ConnectTime          : 2024-09-18 03:30:23.248
+    DisconnectTime       : 2024-09-18 03:30:23.107
+    LastInputTime        : 2024-09-18 03:44:37.018
+    CurrentTime          : 2024-09-18 03:44:37.034
+    * User token:
+    Token user SID       : S-1-5-21-3520235625-995461104-4200055797-1001
+    Token logon session  : 00000000:000705c8
+    Token integrity level: Medium
+    * Linked token:
+    Token user SID       : S-1-5-21-3520235625-995461104-4200055797-1001
+    Token logon session  : 00000000:000705a0
+    Token integrity level: High
+    Processes:
+        5500   csrss.exe                        NT AUTHORITY\SYSTEM
+        5568   winlogon.exe                     NT AUTHORITY\SYSTEM
+        5688   fontdrvhost.exe                  Font Driver Host\UMFD-2
+        5832   dwm.exe                          Window Manager\DWM-2
+        6916   rdpclip.exe                      DESKTOP-UTG6ND7\Admin
+        5796   sihost.exe                       DESKTOP-UTG6ND7\Admin
+        7188   svchost.exe                      DESKTOP-UTG6ND7\Admin
+        7220   svchost.exe                      DESKTOP-UTG6ND7\Admin
+        7244   svchost.exe                      DESKTOP-UTG6ND7\Admin
+        7732   explorer.exe                     DESKTOP-UTG6ND7\Admin
+        7760   taskhostw.exe                    DESKTOP-UTG6ND7\Admin
+        6432   svchost.exe                      DESKTOP-UTG6ND7\Admin
+        2096   SearchHost.exe                   DESKTOP-UTG6ND7\Admin
+        2568   StartMenuExperienceHost.exe      DESKTOP-UTG6ND7\Admin
+        4132   RuntimeBroker.exe                DESKTOP-UTG6ND7\Admin
+        8196   RuntimeBroker.exe                DESKTOP-UTG6ND7\Admin
+        8312   svchost.exe                      DESKTOP-UTG6ND7\Admin
+        8816   dllhost.exe                      DESKTOP-UTG6ND7\Admin
+        9828   LocationNotificationWindows.exe  DESKTOP-UTG6ND7\Admin
+        10048  ShellExperienceHost.exe          DESKTOP-UTG6ND7\Admin
+        10196  RuntimeBroker.exe                DESKTOP-UTG6ND7\Admin
+        3604   PhoneExperienceHost.exe          DESKTOP-UTG6ND7\Admin
+        2412   RuntimeBroker.exe                DESKTOP-UTG6ND7\Admin
+        9500   smartscreen.exe                  DESKTOP-UTG6ND7\Admin
+        9604   SecurityHealthSystray.exe        DESKTOP-UTG6ND7\Admin
+        4916   OneDrive.exe                     DESKTOP-UTG6ND7\Admin
+        13440  backgroundTaskHost.exe           DESKTOP-UTG6ND7\Admin
+        14516  svchost.exe                      DESKTOP-UTG6ND7\Admin
+        11488  GameBar.exe                      DESKTOP-UTG6ND7\Admin
+        3508   GameBarFTServer.exe              DESKTOP-UTG6ND7\Admin
+        15228  RuntimeBroker.exe                DESKTOP-UTG6ND7\Admin
+        6440   svchost.exe                      DESKTOP-UTG6ND7\Admin
+        12936  backgroundTaskHost.exe           DESKTOP-UTG6ND7\Admin
+        4716   ctfmon.exe                       DESKTOP-UTG6ND7\Admin
+        13388  RuntimeBroker.exe                DESKTOP-UTG6ND7\Admin
+        3648   WindowsTerminal.exe              DESKTOP-UTG6ND7\Admin
+        15804  OpenConsole.exe                  DESKTOP-UTG6ND7\Admin
+        6272   powershell.exe                   DESKTOP-UTG6ND7\Admin
+        15296  RuntimeBroker.exe                DESKTOP-UTG6ND7\Admin
+        15752  FileCoAuth.exe                   DESKTOP-UTG6ND7\Admin
+        4480   svchost.exe                      DESKTOP-UTG6ND7\Admin
+        10740  SystemSettingsBroker.exe         DESKTOP-UTG6ND7\Admin
+        16064  svchost.exe                      DESKTOP-UTG6ND7\Admin
+        5756   powershell.exe                   NT AUTHORITY\SYSTEM
+        852    conhost.exe                      NT AUTHORITY\SYSTEM
+        7284   RuntimeBroker.exe                DESKTOP-UTG6ND7\Admin
+        6908   SearchProtocolHost.exe           DESKTOP-UTG6ND7\Admin
+        16752  msedge.exe                       DESKTOP-UTG6ND7\Admin
+        2484   msedge.exe                       DESKTOP-UTG6ND7\Admin
+        13020  msedge.exe                       DESKTOP-UTG6ND7\Admin
+        9532   msedge.exe                       DESKTOP-UTG6ND7\Admin
+        6188   msedge.exe                       DESKTOP-UTG6ND7\Admin
+        1724   identity_helper.exe              DESKTOP-UTG6ND7\Admin
+        18648  msedge.exe                       DESKTOP-UTG6ND7\Admin
+        18804  msedge.exe                       DESKTOP-UTG6ND7\Admin
+        18864  msedge.exe                       DESKTOP-UTG6ND7\Admin
+        16708  msedge.exe                       DESKTOP-UTG6ND7\Admin
+        17880  msedge.exe                       DESKTOP-UTG6ND7\Admin
+        4868   TSSessions.exe                   NT AUTHORITY\SYSTEM
+
+    Session ID           : 4
+    Session Name         : Console
+    State                : Connected
+    SessionFlags         : WTS_SESSIONSTATE_LOCK
+    DomainName           : 
+    UserName             : 
+    LogonTime            : 
+    ConnectTime          : 2024-09-18 03:30:22.950
+    DisconnectTime       : 
+    LastInputTime        : 
+    CurrentTime          : 2024-09-18 03:44:37.034
+    No Token
+    Processes:
+        13612  csrss.exe        NT AUTHORITY\SYSTEM
+        13616  winlogon.exe     NT AUTHORITY\SYSTEM
+        16012  fontdrvhost.exe  Font Driver Host\UMFD-4
+        15500  LogonUI.exe      NT AUTHORITY\SYSTEM
+        16128  dwm.exe          Window Manager\DWM-4
+
+    Session ID           : 65536
+    Session Name         : 31C5CE94259D4006A9E4
+    State                : Listen
+    SessionFlags         : WTS_SESSIONSTATE_LOCK
+    DomainName           : 
+    UserName             : 
+    LogonTime            : 
+    ConnectTime          : 
+    DisconnectTime       : 
+    LastInputTime        : 
+    CurrentTime          : 
+    No Token
+    No processes
+
+Window stations in the current session: 2
+
+    WS name    : WinSta0
+      Flags    : 0x00000001 WSF_VISIBLE
+      User     : NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+      Desktops in WS WinSta0: 3
+
+        Name : Default
+          Flags    : 0x00000000
+          User     : NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+          Heap size: 20480 KB
+          UserInput: Yes
+
+        Name : Disconnect
+          Flags    : 0x00000000
+          User     : NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+          Heap size: 96 KB
+          UserInput: No
+
+        Name : Winlogon
+          Flags    : 0x00000000
+          User     : NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+          Heap size: 192 KB
+          UserInput: No
+
+
+    WS name    : Service-0x0-705c8$
+      Flags    : 0x00000000
+      User     : (no user)
+      Desktops in WS Service-0x0-705c8$: 1
+
+        Name : sbox_alternate_desktop_0x4170
+          Flags    : 0x00000000
+          User     : (no user)
+          Heap size: 768 KB
+          UserInput: No
+
+

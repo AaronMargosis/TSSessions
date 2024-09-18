@@ -1,0 +1,136 @@
+This process/thread running in:
+
+    TS Session:  2
+
+    WinSta:      WinSta0
+    User:        NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+    Flags:       0x00000001 WSF_VISIBLE
+
+    Desktop:     Default
+    User:        NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+    Flags:       0x00000000
+    Heap size:   20480 KB
+
+    Running as:  S-1-5-18 - NT AUTHORITY\SYSTEM
+
+Current user input Desktop: Default
+
+Console Session = 4
+
+Are child sessions enabled? No
+
+Terminal sessions: 5
+
+    Session ID           : 0
+    Session Name         : Services
+    State                : Disconnected
+    SessionFlags         : WTS_SESSIONSTATE_UNKNOWN
+    DomainName           : 
+    UserName             : 
+    LogonTime            : 
+    ConnectTime          : 
+    DisconnectTime       : 
+    LastInputTime        : 
+    CurrentTime          : 2024-09-18 03:44:12.270
+    No Token
+
+    Session ID           : 1
+    Session Name         : 
+    State                : Disconnected
+    SessionFlags         : WTS_SESSIONSTATE_LOCK
+    DomainName           : DESKTOP-UTG6ND7
+    UserName             : Toby
+    LogonTime            : 2024-09-18 03:28:14.422
+    ConnectTime          : 2024-09-18 03:26:54.467
+    DisconnectTime       : 2024-09-18 03:30:22.872
+    LastInputTime        : 2024-09-18 03:30:22.872
+    CurrentTime          : 2024-09-18 03:44:12.270
+    * User token:
+    Token user SID       : S-1-5-21-3520235625-995461104-4200055797-1002
+    Token logon session  : 00000000:0011b19c
+    Token integrity level: Medium
+
+    Session ID           : 2
+    Session Name         : 31C5CE94259D4006A9E4#0
+    State                : Active
+    SessionFlags         : WTS_SESSIONSTATE_UNLOCK
+    DomainName           : DESKTOP-UTG6ND7
+    UserName             : Admin
+    LogonTime            : 2024-09-18 03:27:14.832
+    ConnectTime          : 2024-09-18 03:30:23.248
+    DisconnectTime       : 2024-09-18 03:30:23.107
+    LastInputTime        : 2024-09-18 03:44:12.238
+    CurrentTime          : 2024-09-18 03:44:12.270
+    * User token:
+    Token user SID       : S-1-5-21-3520235625-995461104-4200055797-1001
+    Token logon session  : 00000000:000705c8
+    Token integrity level: Medium
+    * Linked token:
+    Token user SID       : S-1-5-21-3520235625-995461104-4200055797-1001
+    Token logon session  : 00000000:000705a0
+    Token integrity level: High
+
+    Session ID           : 4
+    Session Name         : Console
+    State                : Connected
+    SessionFlags         : WTS_SESSIONSTATE_LOCK
+    DomainName           : 
+    UserName             : 
+    LogonTime            : 
+    ConnectTime          : 2024-09-18 03:30:22.950
+    DisconnectTime       : 
+    LastInputTime        : 
+    CurrentTime          : 2024-09-18 03:44:12.270
+    No Token
+
+    Session ID           : 65536
+    Session Name         : 31C5CE94259D4006A9E4
+    State                : Listen
+    SessionFlags         : WTS_SESSIONSTATE_LOCK
+    DomainName           : 
+    UserName             : 
+    LogonTime            : 
+    ConnectTime          : 
+    DisconnectTime       : 
+    LastInputTime        : 
+    CurrentTime          : 
+    No Token
+
+Window stations in the current session: 2
+
+    WS name    : WinSta0
+      Flags    : 0x00000001 WSF_VISIBLE
+      User     : NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+      Desktops in WS WinSta0: 3
+
+        Name : Default
+          Flags    : 0x00000000
+          User     : NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+          Heap size: 20480 KB
+          UserInput: Yes
+
+        Name : Disconnect
+          Flags    : 0x00000000
+          User     : NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+          Heap size: 96 KB
+          UserInput: No
+
+        Name : Winlogon
+          Flags    : 0x00000000
+          User     : NT AUTHORITY\LogonSessionId_0_460063 (S-1-5-5-0-460063)
+          Heap size: 192 KB
+          UserInput: No
+
+
+    WS name    : Service-0x0-705c8$
+      Flags    : 0x00000000
+      User     : (no user)
+      Desktops in WS Service-0x0-705c8$: 1
+
+        Name : sbox_alternate_desktop_0x4170
+          Flags    : 0x00000000
+          User     : (no user)
+          Heap size: 768 KB
+          UserInput: No
+
+
