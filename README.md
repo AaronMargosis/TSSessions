@@ -2,7 +2,9 @@
 
 Reports detailed information about Windows terminal services (a.k.a., "remote desktop") sessions, window stations, and desktops,
 optionally also reporting the processes running in each session, the top-level windows associated with each desktop, and the
-security descriptors of each window station and desktop.
+security descriptors of each window station and desktop. If executed by the System account, the sessions' information includes
+information about the logged-on user's token and associated LSA logon session -- or tokens, in the case of a UAC "protected 
+administrator" with both Medium and High integrity level LSA sessions.
 
 ```
 Usage:
